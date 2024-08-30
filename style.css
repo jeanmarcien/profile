@@ -1,0 +1,129 @@
+body {
+  text-align: left;
+  font-family: "Quicksand", sans-serif;
+  background-color: rgba(227, 238, 253, 0.534);
+  font-size: 16px;
+  line-height: 2;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  margin: 125px auto;
+}
+
+#profile_picture {
+  width: 50%;
+  height: auto;
+  border-radius: 10px;
+  padding: 0;
+  margin: 0;
+}
+
+.card_1 {
+  flex: 1;
+  padding: 40px;
+  margin: 20px 0px;
+  border-radius: 5px;
+  box-shadow: 5px;
+  text-align: center;
+}
+
+.card_2 {
+  flex: 1;
+  background-color: rgb(255, 255, 255);
+  padding: 40px;
+  margin: 20px 0px;
+  border-radius: 5px;
+  box-shadow: 5px;
+}
+
+.card_3 {
+  padding: 40px;
+  margin: 20px 0px;
+  border-radius: 5px;
+  box-shadow: 5px; */
+}
+
+h1, h2 {
+  color: rgb(100, 100, 100);
+}
+
+h2 {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+a {
+  color: rgb(0, 123, 255);
+  text-decoration: none;
+  transition: 1s ease;
+}
+
+a:hover {
+  color: rgb(0, 86, 179, 0.5);
+  text-decoration: none;
+}
+
+.btn_blue {
+  text-decoration: none;
+  background-color: rgb(0, 123, 255);
+  color: rgb(255, 255, 255);;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  font-weight: bold;
+  transition: 1s ease;
+  margin-bottom: 100px;
+}
+
+.btn_blue:hover {
+  background-color: rgb(0, 86, 179, 0.5);
+  color: rgb(255, 255, 255);
+}
+
+#briefcase {
+  margin-right: 10px;
+}
+
+.list-order {
+  list-style: none;
+  text-align: left;
+}
+
+.emoji {
+  margin-right: 20px;
+}
+
+.icon-inline > li {
+  padding-right: 50px;
+  list-style: none;
+  padding-left: 0px;
+  margin-left: 0px;
+  font-size: 48px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
